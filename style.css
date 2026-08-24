@@ -1,0 +1,25 @@
+:root {
+  --signal-red: #d91c27;
+  --warm-ivory: #f5ebdd;
+  --paper-cream: #fff9f0;
+  --walnut: #3b241b;
+  --ink: #1e1714;
+  --sky-blue: #78b9de;
+  --warm-stone: #8a796b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--paper-cream);
+  color: var(--ink);
+}
+
+header,
+main {
+  width: min(1200px, calc(100% - 48px));
+  margin: 0 auto;
+}
