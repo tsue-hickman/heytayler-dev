@@ -1,33 +1,112 @@
 <!doctype html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>HeyTayler.Dev</title>
-  <style rel="stylesheet" href="style.css"></style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Tayler Hickman — application support engineer and software engineering graduate building practical support tooling, APIs, databases, and automation." />
+  <title>Tayler Hickman | Application Support Engineer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Tayler</h1>
-    <p>Support Engineer building AI powered tools</p>
-    <nav>
-      <ul>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#socials">Socials</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <header class="site-header">
+    <a class="wordmark" href="#top">HEY, TAYLER.</a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Work</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a>
     </nav>
   </header>
-  <main id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <h3>Project 1</h3>
-        <p>Description of project 1</p>
-      </li>
-      <li>
-        <h3>Project 2</h3>
-        <p>Description of project 2</p>
-      </li>
-    </ul>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">APPLICATION SUPPORT · SOFTWARE ENGINEERING · KANSAS CITY</p>
+      <h1>I troubleshoot systems.<br><span>I build the fix forward.</span></h1>
+      <p class="lede">I'm Tayler Hickman, a bilingual Technical Support Junior Engineer with a B.S. in Software Engineering. I turn customer and operational problems into clear diagnoses, useful documentation, automation, and working technical tools.</p>
+      <div class="actions">
+        <a class="button primary" href="#work">See support work</a>
+        <a class="button" href="https://github.com/tsue-hickman" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="button" href="https://www.linkedin.com/in/tayler-hickman-441817291" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      </div>
+      <div class="proof-strip" aria-label="Core strengths">
+        <span>Issue triage + escalation</span><span>Jira</span><span>REST APIs</span><span>Python + JavaScript</span><span>SQL + NoSQL</span><span>AI-assisted tooling</span>
+      </div>
+    </section>
+
+    <section id="work" class="section case-study">
+      <div class="section-label">01 / SUPPORT ENGINEERING</div>
+      <div class="section-grid">
+        <div>
+          <p class="kicker">Current work · Swivel</p>
+          <h2>Support tooling built from the queue outward.</h2>
+        </div>
+        <div class="body-copy">
+          <p>My day-to-day work starts with real customer problems: investigate technical and account issues, track recurring patterns, prioritize and escalate complex cases in Jira, and coordinate with engineering and product teams through resolution.</p>
+          <p>I also use AI-assisted development to turn repeated support friction into internal tooling and automation. The goal is practical: reduce repetitive work, make troubleshooting faster, and make useful context easier for the next person to act on.</p>
+          <div class="capability-grid">
+            <div><strong>Diagnose</strong><small>Customer and application issues through CRM and ticketing workflows.</small></div>
+            <div><strong>Escalate</strong><small>Track recurring and complex issues in Jira with engineering and product.</small></div>
+            <div><strong>Automate</strong><small>Build internal tools around support pain points using AI-assisted development.</small></div>
+            <div><strong>Document</strong><small>Capture troubleshooting knowledge to improve consistency and reduce repeat effort.</small></div>
+          </div>
+          <p class="note">This case study intentionally describes transferable methods and outcomes without exposing employer-confidential systems, customer data, credentials, or proprietary source code.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-label">02 / SELECTED TECHNICAL PROJECTS</div>
+      <div class="projects">
+        <article class="project featured">
+          <div class="project-number">A</div>
+          <p class="kicker">Node.js · Express · MongoDB · OAuth · JWT · Swagger</p>
+          <h3>Personal Finance REST API</h3>
+          <p>Team-built RESTful backend for transactions, categories, budgets, and monthly reporting. Uses an MVC-inspired architecture, MongoDB/Mongoose, Google OAuth, JWT authentication, and documented API endpoints.</p>
+          <a href="https://github.com/tsue-hickman/my_broke_life_project" target="_blank" rel="noreferrer">Inspect repository ↗</a>
+        </article>
+        <article class="project">
+          <div class="project-number">B</div>
+          <p class="kicker">Python · SQL · SQLite</p>
+          <h3>Genomic Variant Database Querier</h3>
+          <p>Normalized four-table relational database with Python-integrated CRUD workflows, many-to-many relationships, JOINs, and aggregate queries for structured genomic data retrieval.</p>
+          <a href="https://github.com/tsue-hickman/sql_relational_db_project" target="_blank" rel="noreferrer">Inspect repository ↗</a>
+        </article>
+        <article class="project">
+          <div class="project-number">C</div>
+          <p class="kicker">Python · Firebase Firestore · NoSQL</p>
+          <h3>Cloud-Based Genome Variant Browser</h3>
+          <p>Cloud-backed application for storing, querying, updating, and deleting structured genomic variant data, connecting Python application logic to Firebase Firestore.</p>
+          <a href="https://github.com/tsue-hickman/cse499_final" target="_blank" rel="noreferrer">View GitHub work ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-label">03 / ABOUT + RESUME</div>
+      <div class="section-grid">
+        <div><h2>Support instincts.<br>Developer foundation.</h2></div>
+        <div class="body-copy">
+          <p>I work best where application behavior, people, and systems meet. My support background taught me to ask better questions, reproduce problems, separate symptoms from causes, communicate clearly, and know when to involve another team. My software engineering background lets me go deeper: APIs, databases, authentication, web applications, cloud foundations, and code.</p>
+          <p><strong>Technical:</strong> Python, JavaScript, Node.js, Express, Flask, Vue.js, Angular, REST, JSON, Swagger/OpenAPI, OAuth, JWT, SQL, SQLite, MongoDB, Firebase/Firestore, Git/GitHub.</p>
+          <p><strong>Support:</strong> troubleshooting, Jira, CRM workflows, issue triage and escalation, knowledge-base documentation, cross-functional collaboration.</p>
+          <p><strong>Education:</strong> B.S. Software Engineering, Web Development emphasis — Brigham Young University–Idaho, 2025.</p>
+          <p><strong>Languages:</strong> English + Spanish.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fit">
+      <div class="section-label">04 / WHAT I BRING TO APPLICATION SUPPORT</div>
+      <h2>Evidence over keyword stuffing.</h2>
+      <p class="lede narrow">I'm growing toward deeper enterprise application administration. I won't claim production experience I don't have. What I can show today is the underlying engineering behavior: troubleshooting, disciplined escalation, automation, API and database work, documentation, customer communication, and the ability to learn unfamiliar systems quickly.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="eyebrow">LET'S BUILD RELIABLE SYSTEMS</p>
+      <h2>Need someone who can support the application <em>and</em> think like an engineer?</h2>
+      <div class="actions">
+        <a class="button primary" href="mailto:Hickbone3@yahoo.com">Email Tayler</a>
+        <a class="button" href="https://github.com/tsue-hickman" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </section>
   </main>
+  <footer><span>© 2026 Tayler Hickman</span><span>Shawnee, Kansas · heytayler.dev</span></footer>
 </body>
+</html>
